@@ -1,5 +1,7 @@
 ## EstimoteRegions
 Project using Estimote iBeacons to simulate geofenced notifications w/ animations
+*Note: EstimoteSDK is too large to upload to GitHub, so directory is incomplete*
+
 
 i.e. Beacon 1 represents milk aisle, shows "You're in the milk aisle. Make sure you buy enough!"
 
