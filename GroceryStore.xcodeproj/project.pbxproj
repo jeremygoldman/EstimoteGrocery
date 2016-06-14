@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F621D781D074A9200C847B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D771D074A9200C847B4 /* ViewController.swift */; };
+		3F621D7A1D074AB400C847B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D791D074AB400C847B4 /* AppDelegate.swift */; };
+		3F621D851D074AD000C847B4 /* BeaconContentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D7C1D074AD000C847B4 /* BeaconContentFactory.swift */; };
+		3F621D861D074AD000C847B4 /* BeaconDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D7D1D074AD000C847B4 /* BeaconDetails.swift */; };
+		3F621D871D074AD000C847B4 /* BeaconDetailsCloudFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D7E1D074AD000C847B4 /* BeaconDetailsCloudFactory.swift */; };
+		3F621D881D074AD000C847B4 /* BeaconDetailsStaticFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D7F1D074AD000C847B4 /* BeaconDetailsStaticFactory.swift */; };
+		3F621D891D074AD000C847B4 /* BeaconID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D801D074AD000C847B4 /* BeaconID.swift */; };
+		3F621D8A1D074AD000C847B4 /* CachingContentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D811D074AD000C847B4 /* CachingContentFactory.swift */; };
+		3F621D8B1D074AD000C847B4 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F621D821D074AD000C847B4 /* EstimoteSDK.framework */; };
+		3F621D8C1D074AD000C847B4 /* NearestBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D831D074AD000C847B4 /* NearestBeaconManager.swift */; };
+		3F621D8D1D074AD000C847B4 /* ProximityContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621D841D074AD000C847B4 /* ProximityContentManager.swift */; };
+		3F621D901D074AF200C847B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F621D8E1D074AF200C847B4 /* LaunchScreen.storyboard */; };
+		3F621D931D074AFA00C847B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F621D911D074AFA00C847B4 /* Main.storyboard */; };
+		3F621D951D074B8700C847B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F621D941D074B8700C847B4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F621D761D074A2E00C847B4 /* ObjCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjCBridge.h; path = GroceryStore/ObjCBridge.h; sourceTree = SOURCE_ROOT; };
+		3F621D771D074A9200C847B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = GroceryStore/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		3F621D791D074AB400C847B4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GroceryStore/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3F621D7C1D074AD000C847B4 /* BeaconContentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconContentFactory.swift; sourceTree = "<group>"; };
+		3F621D7D1D074AD000C847B4 /* BeaconDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconDetails.swift; sourceTree = "<group>"; };
+		3F621D7E1D074AD000C847B4 /* BeaconDetailsCloudFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconDetailsCloudFactory.swift; sourceTree = "<group>"; };
+		3F621D7F1D074AD000C847B4 /* BeaconDetailsStaticFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconDetailsStaticFactory.swift; sourceTree = "<group>"; };
+		3F621D801D074AD000C847B4 /* BeaconID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconID.swift; sourceTree = "<group>"; };
+		3F621D811D074AD000C847B4 /* CachingContentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingContentFactory.swift; sourceTree = "<group>"; };
+		3F621D821D074AD000C847B4 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+		3F621D831D074AD000C847B4 /* NearestBeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearestBeaconManager.swift; sourceTree = "<group>"; };
+		3F621D841D074AD000C847B4 /* ProximityContentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximityContentManager.swift; sourceTree = "<group>"; };
+		3F621D8F1D074AF200C847B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GroceryStore/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		3F621D921D074AFA00C847B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GroceryStore/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		3F621D941D074B8700C847B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GroceryStore/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		AECF165B1B0E0B1000CC83B2 /* GroceryStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECF165F1B0E0B1000CC83B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = GroceryStore/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECF16581B0E0B1000CC83B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F621D8B1D074AD000C847B4 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F621D7B1D074AD000C847B4 /* Estimote */ = {
+			isa = PBXGroup;
+			children = (
+				3F621D7C1D074AD000C847B4 /* BeaconContentFactory.swift */,
+				3F621D7D1D074AD000C847B4 /* BeaconDetails.swift */,
+				3F621D7E1D074AD000C847B4 /* BeaconDetailsCloudFactory.swift */,
+				3F621D7F1D074AD000C847B4 /* BeaconDetailsStaticFactory.swift */,
+				3F621D801D074AD000C847B4 /* BeaconID.swift */,
+				3F621D811D074AD000C847B4 /* CachingContentFactory.swift */,
+				3F621D821D074AD000C847B4 /* EstimoteSDK.framework */,
+				3F621D831D074AD000C847B4 /* NearestBeaconManager.swift */,
+				3F621D841D074AD000C847B4 /* ProximityContentManager.swift */,
+			);
+			name = Estimote;
+			path = GroceryStore/Estimote;
+			sourceTree = SOURCE_ROOT;
+		};
+		AECF16521B0E0B1000CC83B2 = {
+			isa = PBXGroup;
+			children = (
+				AECF165D1B0E0B1000CC83B2 /* GroceryStore */,
+				AECF165C1B0E0B1000CC83B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECF165C1B0E0B1000CC83B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECF165B1B0E0B1000CC83B2 /* GroceryStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECF165D1B0E0B1000CC83B2 /* GroceryStore */ = {
+			isa = PBXGroup;
+			children = (
+				3F621D911D074AFA00C847B4 /* Main.storyboard */,
+				3F621D8E1D074AF200C847B4 /* LaunchScreen.storyboard */,
+				3F621D791D074AB400C847B4 /* AppDelegate.swift */,
+				3F621D771D074A9200C847B4 /* ViewController.swift */,
+				3F621D941D074B8700C847B4 /* Assets.xcassets */,
+				AECF165F1B0E0B1000CC83B2 /* Info.plist */,
+				3F621D761D074A2E00C847B4 /* ObjCBridge.h */,
+				3F621D7B1D074AD000C847B4 /* Estimote */,
+			);
+			name = GroceryStore;
+			path = JergoldmCiscoComSProxi8Cl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECF165A1B0E0B1000CC83B2 /* GroceryStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECF167A1B0E0B1000CC83B2 /* Build configuration list for PBXNativeTarget "GroceryStore" */;
+			buildPhases = (
+				AED499A41BDA532C00445E08 /* Check TODOs */,
+				AECF16571B0E0B1000CC83B2 /* Sources */,
+				AECF16581B0E0B1000CC83B2 /* Frameworks */,
+				AECF16591B0E0B1000CC83B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryStore;
+			productName = JergoldmCiscoComSProxi8Cl;
+			productReference = AECF165B1B0E0B1000CC83B2 /* GroceryStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECF16531B0E0B1000CC83B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "jergoldm@cisco.com";
+				TargetAttributes = {
+					AECF165A1B0E0B1000CC83B2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = A7Y6V86LVR;
+					};
+				};
+			};
+			buildConfigurationList = AECF16561B0E0B1000CC83B2 /* Build configuration list for PBXProject "GroceryStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECF16521B0E0B1000CC83B2;
+			productRefGroup = AECF165C1B0E0B1000CC83B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECF165A1B0E0B1000CC83B2 /* GroceryStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECF16591B0E0B1000CC83B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F621D931D074AFA00C847B4 /* Main.storyboard in Resources */,
+				3F621D951D074B8700C847B4 /* Assets.xcassets in Resources */,
+				3F621D901D074AF200C847B4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AED499A41BDA532C00445E08 /* Check TODOs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check TODOs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "tags=\"TODO:\"\nmatches=`find \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($tags).*\\$\"`\necho \"$matches\" | perl -p -e \"s/($tags)/ error: \\$1/\"\n[ -z \"$matches\" ] || exit 1";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECF16571B0E0B1000CC83B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F621D861D074AD000C847B4 /* BeaconDetails.swift in Sources */,
+				3F621D7A1D074AB400C847B4 /* AppDelegate.swift in Sources */,
+				3F621D881D074AD000C847B4 /* BeaconDetailsStaticFactory.swift in Sources */,
+				3F621D8D1D074AD000C847B4 /* ProximityContentManager.swift in Sources */,
+				3F621D8C1D074AD000C847B4 /* NearestBeaconManager.swift in Sources */,
+				3F621D781D074A9200C847B4 /* ViewController.swift in Sources */,
+				3F621D891D074AD000C847B4 /* BeaconID.swift in Sources */,
+				3F621D851D074AD000C847B4 /* BeaconContentFactory.swift in Sources */,
+				3F621D8A1D074AD000C847B4 /* CachingContentFactory.swift in Sources */,
+				3F621D871D074AD000C847B4 /* BeaconDetailsCloudFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F621D8E1D074AF200C847B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F621D8F1D074AF200C847B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F621D911D074AFA00C847B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F621D921D074AFA00C847B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AECF16781B0E0B1000CC83B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECF16791B0E0B1000CC83B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECF167B1B0E0B1000CC83B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GroceryStore/Estimote",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/GroceryStore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JergoldmCiscoCom.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GroceryStore;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+			};
+			name = Debug;
+		};
+		AECF167C1B0E0B1000CC83B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GroceryStore/Estimote",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/GroceryStore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JergoldmCiscoCom.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GroceryStore;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECF16561B0E0B1000CC83B2 /* Build configuration list for PBXProject "GroceryStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECF16781B0E0B1000CC83B2 /* Debug */,
+				AECF16791B0E0B1000CC83B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECF167A1B0E0B1000CC83B2 /* Build configuration list for PBXNativeTarget "GroceryStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECF167B1B0E0B1000CC83B2 /* Debug */,
+				AECF167C1B0E0B1000CC83B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECF16531B0E0B1000CC83B2 /* Project object */;
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GroceryStore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looking for beacons…" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kG9-FE-qhl">
+                                <rect key="frame" x="13" y="385" width="294" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="FG7-Lr-RrI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="YOa-x4-yvX">
+                                <rect key="frame" x="142" y="474" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ice-cream" translatesAutoresizingMaskIntoConstraints="NO" id="JfP-Pb-ewZ">
+                                <rect key="frame" x="104" y="111" width="112" height="259"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="m7A-Al-CCf">
+                                <rect key="frame" x="92" y="124" width="143" height="234"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="produce" translatesAutoresizingMaskIntoConstraints="NO" id="cQ0-Et-yZC">
+                                <rect key="frame" x="54" y="165" width="229" height="192"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beacon" translatesAutoresizingMaskIntoConstraints="NO" id="c4s-G1-mae">
+                                <rect key="frame" x="80" y="142" width="160" height="210"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62745098039215685" green="0.66274509803921566" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kG9-FE-qhl" firstAttribute="centerX" secondItem="YOa-x4-yvX" secondAttribute="centerX" id="2H3-bw-6JA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cQ0-Et-yZC" secondAttribute="trailing" constant="21" id="4dt-1K-usJ"/>
+                            <constraint firstItem="kG9-FE-qhl" firstAttribute="top" secondItem="c4s-G1-mae" secondAttribute="bottom" constant="33" id="92u-dt-yMg"/>
+                            <constraint firstItem="JfP-Pb-ewZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="88" id="9i1-Q2-SDn"/>
+                            <constraint firstItem="cQ0-Et-yZC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="145" id="DiE-aB-vl1"/>
+                            <constraint firstItem="kG9-FE-qhl" firstAttribute="top" secondItem="JfP-Pb-ewZ" secondAttribute="bottom" constant="15" id="FkI-nF-yY3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YOa-x4-yvX" secondAttribute="bottom" constant="57" id="II0-JN-QwZ"/>
+                            <constraint firstItem="m7A-Al-CCf" firstAttribute="centerY" secondItem="JfP-Pb-ewZ" secondAttribute="centerY" id="LH2-Q0-B1y"/>
+                            <constraint firstItem="cQ0-Et-yZC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="Owa-Do-DmF"/>
+                            <constraint firstItem="JfP-Pb-ewZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="91" id="Oxs-PX-x9j"/>
+                            <constraint firstItem="JfP-Pb-ewZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QjU-60-1Wi"/>
+                            <constraint firstItem="kG9-FE-qhl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-3" id="VFN-yh-Oee"/>
+                            <constraint firstItem="kG9-FE-qhl" firstAttribute="top" secondItem="m7A-Al-CCf" secondAttribute="bottom" constant="27" id="VKL-b4-HYR"/>
+                            <constraint firstItem="m7A-Al-CCf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="76" id="VOg-MB-Qjy"/>
+                            <constraint firstItem="kG9-FE-qhl" firstAttribute="top" secondItem="cQ0-Et-yZC" secondAttribute="bottom" constant="28" id="X86-5F-yEV"/>
+                            <constraint firstItem="c4s-G1-mae" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="122" id="d1W-1k-xJQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kG9-FE-qhl" secondAttribute="bottom" constant="58" id="gWf-Vy-O1l"/>
+                            <constraint firstItem="c4s-G1-mae" firstAttribute="centerX" secondItem="kG9-FE-qhl" secondAttribute="centerX" id="h44-sm-2Ru"/>
+                            <constraint firstItem="c4s-G1-mae" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="64" id="nil-tP-Ua3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m7A-Al-CCf" secondAttribute="trailing" constant="69" id="w9N-0K-xxg"/>
+                            <constraint firstItem="JfP-Pb-ewZ" firstAttribute="centerX" secondItem="c4s-G1-mae" secondAttribute="centerX" id="zvS-gh-JiK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="YOa-x4-yvX" id="WP2-Vm-eJ5"/>
+                        <outlet property="beaconImage" destination="c4s-G1-mae" id="kCD-LX-JBl"/>
+                        <outlet property="iceCreamImage" destination="JfP-Pb-ewZ" id="Cly-OE-mE5"/>
+                        <outlet property="label" destination="kG9-FE-qhl" id="h1N-h3-mxC"/>
+                        <outlet property="milkImage" destination="m7A-Al-CCf" id="KVB-aO-Swh"/>
+                        <outlet property="produceImage" destination="cQ0-Et-yZC" id="7cl-Wv-BXK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144" y="372"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Beacon" width="143" height="208"/>
+        <image name="ice-cream" width="532" height="1199"/>
+        <image name="milk" width="539" height="946"/>
+        <image name="produce" width="340" height="301"/>
+    </resources>
+</document>
