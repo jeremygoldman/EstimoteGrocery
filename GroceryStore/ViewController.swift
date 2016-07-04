@@ -86,6 +86,7 @@ class ViewController: UIViewController, ProximityContentManagerDelegate {
         return .LightContent
     }
     
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
