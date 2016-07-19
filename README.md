@@ -10,11 +10,5 @@ Project using Estimote iBeacons to simulate geofenced notifications w/ animation
 
 * Beacon 3 represents produce aisle, shows "You're in the ice cream section! Try the tomatoes, they're in season!"
 
-# TODOs: 
-  * Milk view: interface with grocery list or Reminders app to show how many are needed
-  * Ice cream view: pull relevant deals/coupons on ice cream for advertising
-  * Produce view: pull info from web about current fruits in season, display relevant in-season fruits
-
-
 Uses [Estimote Beacons and EstimoteSDK](http://developer.estimote.com/)
 
