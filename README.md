@@ -1,5 +1,5 @@
 ## EstimoteRegions
-Project using Estimote iBeacons to simulate geofenced notifications w/ animations
+Project using Estimote iBeacons to simulate grocery store w/ geofenced notifications
 
 *Note: EstimoteSDK is too large to upload to GitHub, so directory is incomplete*
 
